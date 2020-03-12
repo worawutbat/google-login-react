@@ -1,6 +1,6 @@
 {
-  "name": "react-google-login",
-  "version": "5.1.1",
+  "name": "login-google-from-state",
+  "version": "0.0.1",
   "description": "A Google Login Component for React",
   "main": "dist/google-login.js",
   "scripts": {
@@ -29,9 +29,7 @@
     "google-oAuth2",
     "google-oAuth"
   ],
-  "author": {
-    "name": "Worawut"
-  },
+  "author": "Worawut",
   "license": "MIT",
   "dependencies": {
     "@types/react": "*",
@@ -83,5 +81,13 @@
       "@babel/preset-env",
       "@babel/preset-react"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worawutbat/google-login-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/worawutbat/google-login-react/issues"
+  },
+  "homepage": "https://github.com/worawutbat/google-login-react#readme"
 }
