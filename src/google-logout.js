@@ -30,7 +30,8 @@ const GoogleLogout = props => {
     uxMode,
     scope,
     accessType,
-    jsSrc
+    jsSrc,
+    stateParams
   } = props
 
   const { signOut, loaded } = useGoogleLogout({
@@ -46,7 +47,8 @@ const GoogleLogout = props => {
     redirectUri,
     scope,
     accessType,
-    onLogoutSuccess
+    onLogoutSuccess,
+    stateParams
   })
   const disabled = disabledProp || !loaded
 
@@ -138,7 +140,8 @@ GoogleLogout.propTypes = {
   type: PropTypes.string,
   render: PropTypes.func,
   theme: PropTypes.string,
-  icon: PropTypes.bool
+  icon: PropTypes.bool,
+  stateParams: PropTypes.object
 }
 
 GoogleLogout.defaultProps = {
